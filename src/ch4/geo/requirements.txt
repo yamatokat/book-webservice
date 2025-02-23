@@ -1,5 +1,5 @@
 geopandas==1.0.1
-matplotlib=3.9.0
+matplotlib==3.9.0
 matplotlib-fontja==1.0.0
 Flask==3.0.3
 japanmap==0.3.2
