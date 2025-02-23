@@ -17,7 +17,9 @@
 
             // 受け取ったメッセージを描画する (※10)
             const appendMessage = message => {
-                messagesList.appendChild('<li>' + message + '</li>');
+                const li = document.createElement('li');
+                li.textContent = message;
+                messagesList.appendChild(li);
             };
 
             // サーバーとの接続確立 (※11)
